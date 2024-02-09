@@ -1,0 +1,169 @@
+.navbar {
+  position: fixed !important;
+  width: 100%;
+  background-color: rgba(1, 1, 15, 0.442) !important;
+}
+.navbar .container-fluid .navbar-brand {
+  margin-left: 5%;
+}
+.navbar .container-fluid #mynavbar {
+  margin-left: 35%;
+}
+.navbar .container-fluid #mynavbar .navbar-nav {
+  gap: 30px;
+}
+.navbar .container-fluid #mynavbar .navbar-nav .nav-link {
+  color: white;
+  font-weight: bold;
+}
+
+#home {
+  background-image: url("../img/trees-bg.png") !important;
+  background-size: cover;
+  height: 100vh;
+}
+#home .container {
+  height: 100%;
+}
+
+.wrapper {
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.wrapper-title {
+  text-align: center;
+  width: 500px;
+  color: white;
+  position: relative;
+  padding: 10px;
+}
+.wrapper-title::before {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 5px;
+  background-color: blue;
+  top: 100%;
+  left: 45%;
+}
+.wrapper-text {
+  padding-top: 20px;
+  width: 800px;
+  text-align: center;
+  color: white;
+}
+.wrapper-btn {
+  padding: 10px 20px;
+  background-color: transparent !important;
+  border: 2px solid blue;
+  border-radius: 10px;
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.4s;
+}
+.wrapper-btn:hover {
+  background-color: blue !important;
+  border: 2px solid white;
+  color: white;
+}
+
+.boxes {
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  margin-top: -10%;
+}
+.boxes .box {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: transparent !important;
+  border-radius: 50%;
+}
+.boxes .box-1 {
+  background-color: blue;
+}
+
+#story {
+  height: 125vh;
+  display: flex;
+  flex-direction: column;
+}
+#story .row .row-1 {
+  padding: 20px;
+  height: 45vh;
+  align-items: center;
+}
+#story .row .col-md-6 img {
+  padding-left: 35%;
+  width: 70%;
+}
+#story .row .wrapper {
+  width: 70%;
+}
+#story .row .wrapper-title {
+  color: blue;
+}
+#story .row .wrapper-text {
+  color: blue;
+}
+#story .row .wrapper-btn {
+  padding: 10px 20px;
+  background-color: transparent !important;
+  border: 2px solid blue;
+  border-radius: 10px;
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.4s;
+}
+#story .row-2 {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(../img/story-bg.png);
+  background-size: cover;
+}
+#story .row-2 h2 {
+  color: white;
+  padding-top: 20px !important;
+}
+
+.container .top .chiziq {
+  border-bottom: solid 5px gray;
+  width: 70px;
+  margin-left: 750px;
+}
+.container .help {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.chiziq {
+  border-bottom: solid 5px gray;
+  width: 70px;
+  margin-left: 950px;
+}
+
+.meet {
+  background-image: url("../img/trees-bg.png") !important;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100% !important;
+}/*# sourceMappingURL=style.css.map */
